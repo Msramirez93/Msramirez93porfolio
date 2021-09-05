@@ -5,34 +5,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="scss/styles.css">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="portfolioeng.html">about me</a></li>
-            <li><a href="experiencia.html">experiencia</a></li>
-            <li><a href="contactme.html">contact me</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolioeng.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="experiencia.html">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactme.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
     </nav>
+
     <h1>Melany Salome Ramirez</h1>
     <!--image here-->
-    <img src="images/#" alt="me">
+    <div class="caja1">
+    <div class="fot"><img class="perFot" src="./images/1234.jpg" alt="me"></div>
     <!--sobre mi -->
-    <p>Soy una persona Activa, Responsable, Organizada y Honesta. Actualmente me encuentro estudiando para poder obtener
+    <div class="about">
+    <p class="me">Soy una persona Activa, Responsable, Organizada y Honesta. Actualmente me encuentro estudiando para poder obtener
         un Bachelor’s in Technology Applied Science, cuento con conocimientos en HTML, CSS y básico conocimiento de
         JavaScript, soy una desarrolladora web junior, tengo gran conocimiento de las finas artes lo cual es muy
         positivo para poder adaptarlo a mi desarrollo web.
     </p>
-    <div>
-        <p>conocimientos y servicios</p>
-        <p>git </p>
-        <p>git-hub</p>
-        <p>Html/Css</p>
-        <p>JavaScript</p>
+    </div> 
+    </div> 
+    <div class="caja2"> 
+    <div class="list">
+    <h2>Conocimientos y Servicios</h2>
+    <p>git </p>
+    <p>git-hub</p>
+    <p>Html/Css</p>
+    <p>Bootstrap</p>
+    <p>JavaScript</p>
     </div>
+    <div class="list2">
+    <h2>Habilidades</h2>
+    <p>Trabajo en equipo.</p>
+    <p>Dedicación y compromiso.</p>
+    <p>Relaciones interpersonales.</p>
+    <p>Resolución de problemas.</p>
+    <p>Servicio al cliente.</p>
+    </div>
+</div> 
+    <h2>Experiencias</h2>
 
+    <h3>ASISTENTE</h3>
+
+    <p>• Nordelta. A cargo de la supervisión del personal conformado por un total de diez personas.</p>
+
+    <h3>VENDEDOR MULTIFUNCIONAL</h3>
+
+    <p>• Asociado de ventas. Asesoramiento y venta de productos especialmente seleccionados a clientes garantizando un
+        cierre de ventas sencillo y eficaz.</p>
+    <p>• Servicio al Cliente. Brindar un excelente servicio al cliente al informar a los clientes sobre los beneficios
+        y soluciones logrados por nuestros productos.</p>
+
+    <h3>SECRETARIA Y NIÑERA • PARTICULAR • BUENOS AIRES, ARGENTINA Y LISBOA, PORTUGAL</h3>
+
+    <p>• Responsabilidades: Resolución creativa de problemas. Cuidado y desarrollo de comportamiento infantil.</p> 
+    <p>• Compromiso. Debido a mi capacidad de adaptación y excelente ética de trabajo, me desplace a diferentes
+        ciudades entre Argentina y Europa brindando soporte a mi empleador como asistente en diferentes galerías de arte
+        que el mismo posee.</p>
+
+    <h3>REPRESENTANTE</h3>
+
+    <p>• Me desarrollé como supervisora, lideré y desarrollé un equipo de 34 personas brindando capacitación, apoyo y
+        orientación.</p>
+    <p>• Planifiqué y ejecuté actividades sociales y humanitarias dentro de las áreas geográficas designadas y mantuve
+        un programa de estudio diario, consistente en la creación y seguimiento de actividades.</p>
+
+    <h2>EDUCACION:</h2>
+    <p>WEB DEVELOPER• (EN CURSO) • BRIGHAM YOUNG UNIVERSITY (BYU) 2020-2024 (FECHA ESTIMADA DE FINALIZACIÓN)</p>
+    <p>Web Front-end Development.</p>
+    <p>Data base.</p>
+    <p>Web Developer.</p>
+    <p>Coder-House: Desarrollo Web (EN CURSO)</p>
+    <p>SECUNDARIO: COMPLETO</p>
+
+    <h2>IDIOMAS-MS OFFICE:</h2>
+    <p>MS Office: Nivel Intermedio</p>
+    <p>Inglés: Escrito Proficiente - Oral: Conversacional</p>
+    <footer>
+        <div class="footer">
+            &copy;
+            <span id="date"></span>
+            | Melany Salome Ramirez|Buenos Aires,Argentina
+        </div>
+        <p>Last Modified: <span id="lastmod"></span></p>
+    </footer>
+    <script src="./js/styles.js"></script>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

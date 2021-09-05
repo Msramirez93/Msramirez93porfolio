@@ -7,4 +7,70 @@ body {
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.caja1 {
+  display: flex;
+  align-content: space-between;
+}
+
+.perFot {
+  width: 300px;
+  align-items: center;
+  margin: 10px;
+  border: #2A1A1F 4px solid;
+}
+
+.me {
+  text-align: center;
+  margin: 10px;
+}
+
+.about {
+  border: 10px solid #3EC483;
+  background: #2A1A1F;
+  margin: 10px;
+}
+
+.caja2 {
+  display: flex;
+  align-content: space-between;
+}
+
+.list {
+  text-align: center;
+  margin: 0 auto;
+  align-self: center;
+  background-color: #b9c7c736;
+}
+
+.list2 {
+  text-align: center;
+  margin: 0 auto;
+  align-self: center;
+  background-color: #b9c7c736;
+}
+
+h2 {
+  font-family: "Source Code Pro", monospace;
+  color: red;
+  letter-spacing: 6px;
+  text-align: center;
+  margin: 10px;
+}
+
+h3 {
+  font-family: "Source Code Pro", monospace;
+  color: blue;
+  letter-spacing: 6px;
+}
+
+footer {
+  background-color: blueviolet;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
